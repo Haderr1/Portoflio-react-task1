@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #2c3e50;
+  --color-primary-dark: #1a252f;
+  --color-secondary: #1abc9c;
+  --color-accent: #3498db;
+}
+@utility container {
+  margin-inline: auto;
+  padding: 8px;
+}

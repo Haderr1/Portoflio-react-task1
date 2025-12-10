@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #2c3e50;
+  --color-primary-dark: #1a252f;
+  --color-secondary: #1abc9c;
+  --color-accent: #3498db;
+}
+@utility container {
+  margin-inline: auto;
+  padding: 8px;
+}
+.active {
+  @apply px-4 bg-secondary text-white rounded;
+}
+.navItem {
+  @apply relative px-3 py-2 rounded-md uppercase font-semibold text-white hover:shadow-sm hover:shadow-accent/20 hover:duration-300;
+}
+.footerLink {
+  @apply text-white border border-white rounded-full p-2 hover:text-accent hover:border-accent hover:duration-300;
+}
+.portImg {
+  @apply h-84 rounded-2xl p-2 hover:scale-104 hover:duration-300 hover:bg-secondary/50;
+}
